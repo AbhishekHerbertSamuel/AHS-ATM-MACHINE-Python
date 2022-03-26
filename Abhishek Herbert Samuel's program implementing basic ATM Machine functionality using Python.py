@@ -5,26 +5,6 @@ Created on Fri Mar 25 17:07:24 2022
 
 @author: abhishekherbertsamuel
 """
-
-"""
-6.5 Write a Python script to build ATM Machine functionality 
-
-Acceptance Criteria:
-
-a) Create a Python function which asks ATM PIN as input and if the PIN is 
-    valid it should display Withdraw and Check Account Balance option. 
-    (Use string functions to check if a PIN has only 4 numeric characters).
-
-b) Create a Python function which allows user to select the option
-
-c) Create a separate Python function which implements check account balance 
-    and withdraw functionality.
-
-d) After the successful withdrawal account balance should reduce
-
-e) In an user enters invalid withdrawal, you should notify the user with error 
-    message
-"""
 # For this purpose assume that the account has a balance of 2 Lakh Rupees.
 import sys
 def pin(atmpin):
